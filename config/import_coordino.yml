@@ -1,0 +1,16 @@
+############################################################
+#### Configuration
+############################################################
+
+# database stuff
+# database stuff
+sql_server: COORDINO_SQL_SERVER
+sql_user: COORDINO_SQL_USER
+sql_password: COORDINO_SQL_PASSWORD
+sql_database: coordino_dev
+
+# User with admin privileges to create users and category
+discourse_admin: DISCOURSE_ADMIN_USER
+
+# If true then nothing will be written to the Discourse database
+test_mode: true
